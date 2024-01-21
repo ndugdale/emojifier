@@ -1,9 +1,11 @@
+import Converter from "./components/Converter";
+
 const App = () => {
   return (
-    <div className="w-screen h-screen flex flex-col justify-center items-center" >
-      <div className="font-bold">Hello World</div>
+    <div className=" flex h-screen w-screen flex-col items-center justify-center">
+      <Converter />
     </div>
   );
-}
+};
 
 export default App;
