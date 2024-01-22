@@ -1,10 +1,11 @@
+import Content from "./components/Content";
 import Converter from "./components/Converter";
 
 const App = () => {
   return (
-    <div className=" flex h-screen w-screen flex-col items-center justify-center">
+    <Content>
       <Converter />
-    </div>
+    </Content>
   );
 };
 
