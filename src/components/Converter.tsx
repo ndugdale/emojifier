@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import Input from "./Input";
-import Output from "./Output";
 import { convertToEmojis } from "../utils/converter";
+import TextArea from "./TextArea";
+import Output from "./Output";
 
 const Converter = () => {
   const [inputText, setInputText] = useState<string>("");
@@ -17,7 +17,7 @@ const Converter = () => {
     setSeed(initSeed);
   }, []);
 
-  const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const onChange = (e: React.ChangeEvent<HTMLTextAreaElement>) => {
     const currentValue = e.target.value;
     setInputText(currentValue);
     setOutputText(convertToEmojis(currentValue, seed));
@@ -25,7 +25,7 @@ const Converter = () => {
 
   return (
     <div className="mt-[50%] flex w-full flex-col items-center gap-16">
-      <Input value={inputText} onChange={onChange} />
+      <TextArea value={inputText} onChange={onChange} />
       <Output value={outputText} />
     </div>
   );
