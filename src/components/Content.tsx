@@ -6,7 +6,7 @@ type ContentProps = {
 
 const Content = ({ children }: ContentProps) => {
   return (
-    <div className="flex h-screen w-screen items-center justify-center bg-blue-100">
+    <div className={`flex h-screen w-screen items-center justify-center`}>
       <div className="flex h-full w-full lg:w-[64rem]">{children}</div>
     </div>
   );

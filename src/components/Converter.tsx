@@ -25,7 +25,11 @@ const Converter = () => {
 
   return (
     <div className="mt-[50%] flex w-full flex-col items-center gap-16">
-      <TextArea value={inputText} onChange={onChange} />
+      <TextArea
+        value={inputText}
+        onChange={onChange}
+        placeholder="Emojify a message..."
+      />
       <Output value={outputText} />
     </div>
   );
