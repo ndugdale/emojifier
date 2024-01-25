@@ -24,7 +24,7 @@ const Converter = () => {
   };
 
   return (
-    <div className="mt-[50%] flex w-full flex-col items-center gap-16">
+    <div className="flex w-full flex-col items-center gap-16">
       <TextArea
         value={inputText}
         onChange={onChange}

@@ -19,8 +19,8 @@ const EmojiBackground = () => {
 
   useEffect(() => {
     const calculateGridSize = () => {
-      const columns = Math.floor(window.innerWidth / componentWidth + 1);
-      const rows = Math.floor(window.innerHeight / componentHeight + 1);
+      const columns = Math.floor(window.innerWidth / componentWidth + 2);
+      const rows = Math.floor(window.innerHeight / componentHeight + 2);
 
       setNumColumns(columns);
       setNumRows(rows);
@@ -46,9 +46,9 @@ const EmojiBackground = () => {
     for (let i = 0; i < numRows; i++) {
       for (let j = 0; j < numColumns; j++) {
         const offsetWidth =
-          2 * componentMaxOffset * (Math.random() - 1) - componentWidth / 2;
+          2 * componentMaxOffset * (Math.random() - 1) - componentWidth;
         const offsetHeight =
-          2 * componentMaxOffset * (Math.random() - 1) - componentHeight / 2;
+          2 * componentMaxOffset * (Math.random() - 1) - componentHeight;
 
         newEmojis.push({
           id: `${i}-${j}`,
