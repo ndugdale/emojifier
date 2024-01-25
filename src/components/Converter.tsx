@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { convertToEmojis } from "../utils/converter";
 import TextArea from "./TextArea";
 import Output from "./Output";
+import Logo from "./Logo";
 
 const Converter = () => {
   const [inputText, setInputText] = useState<string>("");
@@ -25,6 +26,7 @@ const Converter = () => {
 
   return (
     <div className="flex w-full flex-col items-center gap-16">
+      <Logo value="Emojifier" />
       <TextArea
         value={inputText}
         onChange={onChange}
