@@ -1,3 +1,5 @@
+import CopyButton from "./CopyButton";
+
 type OutputProps = {
   value: string;
 };
@@ -14,14 +16,19 @@ const Output = ({ value }: OutputProps) => {
         borderBottomLeftRadius: "15px 255px",
       }}
     >
-      <div>
-        {value.split(/(\s+)/).map((word, index) => {
-          return (
-            <span key={index} className="mr-6 inline-block whitespace-nowrap">
-              {word}
-            </span>
-          );
-        })}
+      <div className="flex flex-grow items-center justify-center overflow-hidden">
+        <div>
+          {value.split(/(\s+)/).map((word, index) => {
+            return (
+              <span key={index} className="mr-6 inline-block whitespace-nowrap">
+                {word}
+              </span>
+            );
+          })}
+        </div>
+      </div>
+      <div className="sticky bottom-4 -mt-12 self-end">
+        <CopyButton copyText={value} />
       </div>
     </div>
   );
