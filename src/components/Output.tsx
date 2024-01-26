@@ -16,11 +16,11 @@ const Output = ({ value }: OutputProps) => {
         borderBottomLeftRadius: "15px 255px",
       }}
     >
-      <div className="flex flex-grow items-center justify-center overflow-hidden">
+      <div className="flex flex-grow items-center justify-center">
         <div>
           {value.split(/(\s+)/).map((word, index) => {
             return (
-              <span key={index} className="mr-6 inline-block whitespace-nowrap">
+              <span key={index} className="mr-6 inline-block">
                 {word}
               </span>
             );
