@@ -4,10 +4,15 @@ import GitHubLogoHover from "../assets/github-mark-hover.svg";
 
 type GitHubButtonProps = {
   url: string;
+  openInNewTab?: boolean;
   className?: string;
 };
 
-const GitHubButton = ({ url, className }: GitHubButtonProps) => {
+const GitHubButton = ({
+  url,
+  openInNewTab = false,
+  className,
+}: GitHubButtonProps) => {
   const [isHovered, setIsHovered] = useState<boolean>(false);
 
   const handleMouseEnter = () => {
@@ -20,6 +25,8 @@ const GitHubButton = ({ url, className }: GitHubButtonProps) => {
   return (
     <a
       href={url}
+      target={openInNewTab ? "_blank" : undefined}
+      rel={openInNewTab ? "noopener noreferrer" : undefined}
       className={className}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}

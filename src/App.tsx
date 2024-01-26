@@ -8,6 +8,7 @@ const App = () => {
     <>
       <GitHubButton
         url="https://github.com/ndugdale/emojifier"
+        openInNewTab={true}
         className="fixed right-12 top-12"
       />
       <Content>
