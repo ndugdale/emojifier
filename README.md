@@ -11,6 +11,9 @@
   <p align="center">
     A web app for converting alphanumeric text to emoji representations, built using React.
     <br />
+    <a href="https://ndugdale.github.io/emojifier/"><strong>Try it out »</strong></a>
+    <br />
+    <br />
     <a href="https://github.com/ndugdale/emojifier/issues">Report Bug</a>
     ·
     <a href="https://github.com/ndugdale/emojifier/issues">Request Feature</a>
