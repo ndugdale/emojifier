@@ -1,46 +1,140 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-## Available Scripts
+<div align="center">
+<h1 align="center"><strong>Emojifier</strong></h1>
+  <p align="center">
+    A web app for converting alphanumeric text to emoji representations, built using React.
+    <br />
+    <a href="https://github.com/ndugdale/emojifier/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/ndugdale/emojifier/issues">Request Feature</a>
+    ·
+    <a href="#contact">Contact</a>
+  </p>
+</div>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#running-locally">Running Locally</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#development">Developments</a>a></li>
+      </ul>
+    </li>
+    <li><a href="#licence">Licence</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-### `npm start`
+<!-- ABOUT THE PROJECT -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# About the Project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+  <img src="/docs/images/emojifier.png?raw=true" alt="Screenshot of Emojifier web app"/>
+</p>
 
-### `npm test`
+This is a web app for converting alphanumeric text to an emoji representation. This project was built using the [**React**](https://react.dev/) framework.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built With
 
-### `npm run build`
+[![React][react-shield]][react-url]
+[![Tailwind CSS][tailwind-shield]][tailwind-url]
+[![Jest][jest-shield]][jest-url]
+[![Testing Library][testing-library-shield]][testing-library-url]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- RUNNING LOCALLY -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Running Locally
 
-### `npm run eject`
+To get a local copy up and running follow the steps below:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### [**Node.js**](https://nodejs.org/en/download/package-manager/) and [**npm**](https://nodejs.org/en/download/package-manager/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Install `node.js` and the `npm` package manager using your package manager or other method of choice [(see options)](https://nodejs.org/en/download/package-manager/).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Installation
 
-## Learn More
+Clone the repository and install npm dependencies.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+git clone https://github.com/ndugdale/emojifier.git
+cd emojifier
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Development
+
+- **Run** in development mode on [http://localhost:3000](http://localhost:3000):
+
+  ```sh
+  npm start
+  ```
+
+- **Test** the application by launching the test runner:
+
+  ```sh
+  npm test
+  ```
+
+- **Build** an optimised bundle to the `build` directory:
+  ```sh
+  npm run build
+  ```
+
+<!-- LICENCE -->
+
+# Licence
+
+Distributed under the MIT Licence. See `LICENCE.md` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+# Contact
+
+Project Link: [https://github.com/ndugdale/emojifier](https://github.com/ndugdale/emojifier)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/ndugdale/emojifier.svg?style=for-the-badge
+[contributors-url]: https://github.com/ndugdale/emojifier/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ndugdale/emojifier.svg?style=for-the-badge
+[forks-url]: https://github.com/ndugdale/emojifier/network/members
+[stars-shield]: https://img.shields.io/github/stars/ndugdale/emojifier.svg?style=for-the-badge
+[stars-url]: https://github.com/ndugdale/emojifier/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ndugdale/emojifier.svg?style=for-the-badge
+[issues-url]: https://github.com/ndugdale/emojifier/issues
+[license-shield]: https://img.shields.io/github/license/ndugdale/emojifier.svg?style=for-the-badge
+[license-url]: https://github.com/ndugdale/emojifier/blob/main/LICENCE.md
+[react-shield]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://react.dev/
+[tailwind-shield]: https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white
+[tailwind-url]: https://tailwindcss.com/
+[jest-shield]: https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white
+[jest-url]: https://jestjs.io/
+[testing-library-shield]: https://img.shields.io/badge/testing%20library-323330?style=for-the-badge&logo=testing-library&logoColor=red
+[testing-library-url]: https://testing-library.com/
