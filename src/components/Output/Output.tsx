@@ -1,4 +1,4 @@
-import CopyButton from "./CopyButton";
+import CopyButton from "../CopyButton/CopyButton";
 
 type OutputProps = {
   value: string;
@@ -16,7 +16,10 @@ const Output = ({ value }: OutputProps) => {
         borderBottomLeftRadius: "15px 255px",
       }}
     >
-      <div className="flex flex-grow items-center justify-center">
+      <div
+        className="flex flex-grow items-center justify-center"
+        data-testid="output"
+      >
         <div>
           {value.split(/(\s+)/).map((word, index) => {
             return (

@@ -10,6 +10,7 @@ const Logo = ({ value }: LogoProps) => {
         textShadow:
           "3px 3px 0 #fff, -3px -3px 0 #fff, 3px -3px 0 #fff, -3px 3px 0 #fff, 3px 3px 0 #fff",
       }}
+      data-testid="logo"
     >
       {value}
     </div>

@@ -1,7 +1,7 @@
-import Content from "./components/Content";
-import Converter from "./components/Converter";
-import EmojiBackground from "./components/EmojiBackground";
-import GitHubButton from "./components/GitHubButton";
+import Content from "./components/Content/Content";
+import Converter from "./components/Converter/Converter";
+import EmojiBackground from "./components/EmojiBackground/EmojiBackground";
+import GitHubButton from "./components/GitHubButton/GitHubButton";
 
 const App = () => {
   return (

@@ -2,7 +2,7 @@ interface ICharToEmojiMap {
   [key: string]: string[];
 }
 
-const charToEmojiMap: ICharToEmojiMap = {
+export const charToEmojiMap: ICharToEmojiMap = {
   a: ["🅰️", "🙏", "🏔️", "🗼", "⚠️", "🖇️"],
   b: ["🅱️", "🍺", "👍"],
   c: ["🥐", "🧲", "☪️", "©️"],

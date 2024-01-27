@@ -1,6 +1,6 @@
 import { useState } from "react";
-import GitHubLogo from "../assets/github-mark.svg";
-import GitHubLogoHover from "../assets/github-mark-hover.svg";
+import GitHubLogo from "../../assets/github-mark.svg";
+import GitHubLogoHover from "../../assets/github-mark-hover.svg";
 
 type GitHubButtonProps = {
   url: string;

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ReactComponent as Copy } from "../assets/copy.svg";
+import { ReactComponent as Copy } from "../../assets/copy.svg";
 
 type CopyButtonProps = {
   copyText: string;
@@ -19,8 +19,11 @@ const CopyButton = ({ copyText }: CopyButtonProps) => {
 
   return (
     <div className="relative flex items-center">
-      <button className="rounded-md bg-black p-1 hover:bg-neutral-700">
-        <Copy onClick={handleClick} />
+      <button
+        onClick={handleClick}
+        className="rounded-md bg-black p-1 hover:bg-neutral-700"
+      >
+        <Copy />
       </button>
       <div
         className={`absolute left-0 top-0 -translate-x-[110%] rounded-md bg-black px-3 py-2 text-sm text-white

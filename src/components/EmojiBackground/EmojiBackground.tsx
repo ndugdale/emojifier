@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { shuffle } from "../utils/shuffle";
+import { shuffle } from "../../utils/shuffle";
 
 type Emoji = {
   id: string;
@@ -65,7 +65,7 @@ const EmojiBackground = () => {
   }, [numColumns, numRows]);
 
   return (
-    <>
+    <div data-testid="emoji-background">
       {emojis.map((emoji) => {
         return (
           <div
@@ -81,7 +81,7 @@ const EmojiBackground = () => {
           </div>
         );
       })}
-    </>
+    </div>
   );
 };
 

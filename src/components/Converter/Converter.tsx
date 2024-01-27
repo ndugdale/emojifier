@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { convertToEmojis } from "../utils/converter";
-import TextArea from "./TextArea";
-import Output from "./Output";
-import Logo from "./Logo";
+import { convertToEmojis } from "../../utils/converter";
+import TextArea from "../TextArea/TextArea";
+import Output from "../Output/Output";
+import Logo from "../Logo/Logo";
 
 const Converter = () => {
   const [inputText, setInputText] = useState<string>("");
