@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/emojifier/static/css/main.13365a6c.css",
+    "main.js": "/emojifier/static/js/main.12bc6fa9.js",
+    "static/media/github-mark-hover.svg": "/emojifier/static/media/github-mark-hover.c223f4bf00dc95c28b334dd5c8f27894.svg",
+    "static/media/github-mark.svg": "/emojifier/static/media/github-mark.9f1e61762aa32b6abb3451820b73f72f.svg",
+    "index.html": "/emojifier/index.html",
+    "static/media/copy.svg": "/emojifier/static/media/copy.2473df9ae9e7a2ab020f26db533c4b3d.svg",
+    "main.13365a6c.css.map": "/emojifier/static/css/main.13365a6c.css.map",
+    "main.12bc6fa9.js.map": "/emojifier/static/js/main.12bc6fa9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13365a6c.css",
+    "static/js/main.12bc6fa9.js"
+  ]
+}
